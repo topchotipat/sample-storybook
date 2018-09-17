@@ -1,0 +1,41 @@
+{
+  "name": "storybook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.2.0",
+    "mobx": "^5.1.1",
+    "mobx-react": "^5.2.8",
+    "react": "^16.5.0",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.5.0",
+    "react-router-dom": "^4.3.1",
+    "react-test-renderer": "^16.5.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^3.4.6"
+  },
+  "devDependencies": {
+    "sendit-react-scripts": "1.1.51",
+    "@storybook/react": "^3.4.10",
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/addons": "^3.4.10",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version sendit-react-scripts",
+    "build": "react-app-rewired build --scripts-version sendit-react-scripts",
+    "test": "jest --watch",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
